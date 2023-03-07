@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CambiaTitolo from "./components/CambiaTitolo";
+import ArrayState from "./components/ArrayState";
+import StateObject from "./components/StateObject";
+import CounterComponent from "./components/CounterComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="container">
+        <CambiaTitolo />
+        <hr />
+        <ArrayState />
+        <hr />
+        <StateObject />
+        <hr />
+        <CounterComponent />
+        <hr />
+      </section>
     </div>
   );
 }
