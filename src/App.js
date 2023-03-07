@@ -8,14 +8,16 @@ function App() {
   return (
     <div className="App">
       <section className="container">
-        <CambiaTitolo />
-        <hr />
-        <ArrayState />
-        <hr />
-        <StateObject />
-        <hr />
-        <CounterComponent />
-        <hr />
+        <div className="mt-4">
+          <CambiaTitolo />
+          <hr />
+          <ArrayState />
+          <hr />
+          <StateObject />
+          <hr />
+          <CounterComponent />
+          <hr />
+        </div>
       </section>
     </div>
   );
